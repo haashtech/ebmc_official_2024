@@ -1,0 +1,91 @@
+.bgimage{}
+.main {
+    background-image: url("../Admin/assets/david-rodrigo-Fr6zexbmjmc-unsplash.jpg");
+    width: 100%;
+    
+    height: 100vh; 
+    font-family: sans-serif;
+  }
+
+.box {
+    width: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+  }
+  h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  /************** 
+   Input Fields
+  ***************/
+  #username, #pass{
+    border: 2px solid #5cf4ba;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 15px 45px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 18px;
+    text-align: center;
+    transition: 250ms width ease, 250ms border-color ease;
+  }
+  /************** 
+     On Hover
+  ***************/
+  #username:hover, #pass:hover{
+    width: 220px;
+  }
+  /************** 
+     On Focus
+  ***************/
+  #username:focus, #pass:focus{
+    width: 250px;
+    border-color: #6fb98f;
+  }
+  /************** 
+   Submit Button
+  ***************/
+  #login{
+    border: 2px solid #ffffff;
+    width: 150px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 5px 20px;
+    outline: none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 200;
+    transition: 250ms background ease;
+    -webkit-transition: 250ms background ease;
+    -moz-transition: 250ms background ease;
+    -o-transition: 250ms background ease;
+  }
+  .logo{
+    margin-bottom: 2rem;
+  }
+  /************** 
+     On Hover
+  ***************/
+  #login:hover{
+    background: #2ecc71;
+  }
